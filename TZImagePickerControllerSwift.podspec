@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "tanhuang" => "tanhuangios@foxmail.com" }
   s.platform     = :ios
-  s.swift_version = "4.0"
+  s.swift_version = "4.2"
   s.ios.deployment_target = "8.0"
   s.source       = { :git => "https://github.com/tanhuang/TZImagePickerControllerSwift.git", :tag => s.version }
   s.requires_arc = true
