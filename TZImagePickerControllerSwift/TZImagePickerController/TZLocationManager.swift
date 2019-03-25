@@ -14,7 +14,7 @@ public class TZLocationManager: NSObject, CLLocationManagerDelegate {
     public static var manager: TZLocationManager = {
         let manager = TZLocationManager()
         manager.locationManager = CLLocationManager()
-        manager.locationManager?.requestAlwaysAuthorization()
+        manager.locationManager?.requestWhenInUseAuthorization()
         manager.locationManager?.delegate = manager
         return manager
     }()
